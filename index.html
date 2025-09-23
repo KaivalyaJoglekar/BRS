@@ -57,6 +57,14 @@ data-wf-site="64b117fb0e09e8ce5768e4fe"
         -moz-osx-font-smoothing: grayscale;
         font-feature-settings: "ss01" /*dots*/, "ss02" /*a*/, "ss07" /*G*/,
           "ss08" /*J*/, "ss09" /*Q*/;
+        overflow-x: hidden;
+        overflow-y: auto;
+        scrollbar-width: none;
+      }
+
+      /* Hide scrollbar */
+      ::-webkit-scrollbar {
+        display: none;
       }
     </style>
 
@@ -216,8 +224,8 @@ data-wf-site="64b117fb0e09e8ce5768e4fe"
                 class="brand-link move w-inline-block"
                 ><div class="brand-size-style">
                   <div class="link-overflow">
-                    <div class="logo" style="height: auto; width: 50px;"> 
-                        <img src="images/BRS-Logo.png" alt="BRS Logo"/>
+                    <div class="logo" style="height: auto; width: 50px;">
+                        <img src="images/BRS-Logo.png" alt="BRS Logo" loading="lazy"/>
                       </div>
                     </div>
                   </div>
@@ -813,22 +821,22 @@ data-wf-site="64b117fb0e09e8ce5768e4fe"
                             <h3 style="color: rgba(255, 255, 255, 0.9); margin: 0 0 30px 0; font-size: 1.25rem; font-weight: 500; font-family: 'Inter', sans-serif; letter-spacing: 0.5px; text-transform: uppercase; opacity: 0.8;">Our Past Sponsors</h3>
                         </div>
                         <div class="logo-grid-logo-wrap" style="flex: 1 1 150px; display: flex; justify-content: center; align-items: center;">
-                            <img src="images/bookmyshowlogo-white.webp" loading="eager" alt="BMS" class="logo-grid-logo" style="max-width: 100%; height: auto; object-fit: contain; padding: 10px;" />
+                            <img src="images/bookmyshowlogo-white.webp" loading="lazy" alt="BMS" class="logo-grid-logo" style="max-width: 100%; height: auto; object-fit: contain; padding: 10px;" />
                         </div>
                         <div class="logo-grid-logo-wrap" style="flex: 1 1 150px; display: flex; justify-content: center; align-items: center;">
-                            <img src="images/JSW.webp" loading="eager" alt="JSW" class="logo-grid-logo" style="max-width: 100%; height: auto; object-fit: contain; padding: 10px;" />
+                            <img src="images/JSW.webp" loading="lazy" alt="JSW" class="logo-grid-logo" style="max-width: 100%; height: auto; object-fit: contain; padding: 10px;" />
                         </div>
                         <div class="logo-grid-logo-wrap" style="flex: 1 1 150px; display: flex; justify-content: center; align-items: center;">
-                            <img src="images/trclogofinal (1).webp" loading="eager" alt="TRC" class="logo-grid-logo" style="max-width: 100%; height: auto; object-fit: contain; padding: 10px;" />
+                            <img src="images/trc-25.png" loading="lazy" alt="TRC" class="logo-grid-logo" style="max-width: 100%; height: auto; object-fit: contain; padding: 10px;" />
                         </div>
                         <div class="logo-grid-logo-wrap" style="flex: 1 1 150px; display: flex; justify-content: center; align-items: center;">
-                            <img src="images/Max Protein.webp" loading="eager" alt="Max Protein" class="logo-grid-logo" style="max-width: 100%; height: auto; object-fit: contain; padding: 10px;" />
+                            <img src="images/Max Protein.webp" loading="lazy" alt="Max Protein" class="logo-grid-logo" style="max-width: 100%; height: auto; object-fit: contain; padding: 10px;" />
                         </div>
                         <div class="logo-grid-logo-wrap" style="flex: 1 1 150px; display: flex; justify-content: center; align-items: center;">
-                            <img src="images/sirrusai.webp" loading="eager" alt="sirrusai" class="logo-grid-logo" style="max-width: 100%; height: auto; object-fit: contain; padding: 10px;" />
+                            <img src="images/sirrusai.webp" loading="lazy" alt="sirrusai" class="logo-grid-logo" style="max-width: 100%; height: auto; object-fit: contain; padding: 10px;" />
                         </div>
                         <div class="logo-grid-logo-wrap" style="flex: 1 1 150px; display: flex; justify-content: center; align-items: center;">
-                            <img src="images/my.avif" loading="eager" alt="Myop" class="logo-grid-logo" style="max-width: 100%; height: auto; object-fit: contain; padding: 10px;" />
+                            <img src="images/my.avif" loading="lazy" alt="Myop" class="logo-grid-logo" style="max-width: 100%; height: auto; object-fit: contain; padding: 10px;" />
                         </div>
                       </div>
                     
@@ -839,7 +847,7 @@ data-wf-site="64b117fb0e09e8ce5768e4fe"
                                 <div class="heading-text">Event Schedule</div>
                                 <div class="rotating-symbol-wrap">
                                   <div class="rotating-symbol">
-                                    <img src="https://cdn.prod.website-files.com/64b117fb0e09e8ce5768e4fe/64b7d30aa9b24259d10be24d_symbol.svg" loading="eager" alt="" class="rotating-symbol-image" />
+                                    <img src="https://cdn.prod.website-files.com/64b117fb0e09e8ce5768e4fe/64b7d30aa9b24259d10be24d_symbol.svg" loading="lazy" alt="" class="rotating-symbol-image" />
                                 </div>
                                 </div>
                             </div>
@@ -1038,14 +1046,14 @@ data-wf-site="64b117fb0e09e8ce5768e4fe"
                             <div class="window-animation-curtain upper"></div>
                             <div class="window-animation-curtain lower"></div>
                             <div class="window-animation-content">
-                                <img src="images/1.webp" loading="eager" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/1.webp 500w, images/1.webp 800w, images/1.webp 1080w, images/1.webp 1600w, images/1.webp 2000w, images/1.webp 3240w" alt="" class="window-animation-image"/>
-                                <img src="images/2.webp" loading="eager" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/2.webp 500w, images/2.webp 800w, images/2.webp 1080w, images/2.webp 1600w, images/2.webp 2000w, images/2.webp 2600w, images/2.webp 3800w" alt="" class="window-animation-image"/>
-                                <img src="images/3.webp" loading="eager" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/3.webp 500w, images/3.webp 800w, images/3.webp 1080w, images/3.webp 1600w, images/3.webp 2000w, images/3.webp 2600w, images/3.webp 3840w" alt="" class="window-animation-image"/>
-                                <img src="images/4.webp" loading="eager" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/4.webp 500w, images/4.webp 800w, images/4.webp 1080w, images/4.webp 1600w, images/4.webp 2000w, images/4.webp 2600w, images/4.webp 3840w" alt="" class="window-animation-image"/>
-                                <img src="images/5.webp" loading="eager" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/5.webp 500w, images/5.webp 800w, images/5.webp 1080w, images/5.webp 1600w, images/5.webp 2000w, images/5.webp 2600w, images/5.webp 3840w" alt="" class="window-animation-image"/>
-                                <img src="images/6.webp" loading="eager" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/6.webp 500w, images/6.webp 800w, images/6.webp 1080w, images/6.webp 1600w, images/6.webp 2000w, images/6.webp 2600w, images/6.webp 3240w" alt="" class="window-animation-image"/>
-                                <img src="images/7.webp" loading="eager" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/7.webp 500w, images/7.webp 800w, images/7.webp 1080w, images/7.webp 1600w, images/7.webp 2000w, images/7.webp 2600w, images/7.webp 3240w" alt="" class="window-animation-image"/>
-                                <img src="images/last.jpeg" loading="eager" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/last.jpeg 500w, images/last.jpeg 800w, images/last.jpeg 1080w, images/last.jpeg 1600w, images/last.jpeg 2000w, images/last.jpeg 2600w, images/last.jpeg 3240w" alt="" class="window-animation-image"/>
+                                <img src="images/1.webp" loading="lazy" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/1.webp 500w, images/1.webp 800w, images/1.webp 1080w, images/1.webp 1600w, images/1.webp 2000w, images/1.webp 3240w" alt="" class="window-animation-image"/>
+                                <img src="images/2.webp" loading="lazy" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/2.webp 500w, images/2.webp 800w, images/2.webp 1080w, images/2.webp 1600w, images/2.webp 2000w, images/2.webp 2600w, images/2.webp 3800w" alt="" class="window-animation-image"/>
+                                <img src="images/3.webp" loading="lazy" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/3.webp 500w, images/3.webp 800w, images/3.webp 1080w, images/3.webp 1600w, images/3.webp 2000w, images/3.webp 2600w, images/3.webp 3840w" alt="" class="window-animation-image"/>
+                                <img src="images/4.webp" loading="lazy" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/4.webp 500w, images/4.webp 800w, images/4.webp 1080w, images/4.webp 1600w, images/4.webp 2000w, images/4.webp 2600w, images/4.webp 3840w" alt="" class="window-animation-image"/>
+                                <img src="images/5.webp" loading="lazy" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/5.webp 500w, images/5.webp 800w, images/5.webp 1080w, images/5.webp 1600w, images/5.webp 2000w, images/5.webp 2600w, images/5.webp 3840w" alt="" class="window-animation-image"/>
+                                <img src="images/6.webp" loading="lazy" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/6.webp 500w, images/6.webp 800w, images/6.webp 1080w, images/6.webp 1600w, images/6.webp 2000w, images/6.webp 2600w, images/6.webp 3240w" alt="" class="window-animation-image"/>
+                                <img src="images/7.webp" loading="lazy" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/7.webp 500w, images/7.webp 800w, images/7.webp 1080w, images/7.webp 1600w, images/7.webp 2000w, images/7.webp 2600w, images/7.webp 3240w" alt="" class="window-animation-image"/>
+                                <img src="images/last.jpeg" loading="lazy" sizes="(max-width: 479px) 70vw, (max-width: 767px) 60vw, (max-width: 991px) 100vw, 60vw" srcset="images/last.jpeg 500w, images/last.jpeg 800w, images/last.jpeg 1080w, images/last.jpeg 1600w, images/last.jpeg 2000w, images/last.jpeg 2600w, images/last.jpeg 3240w" alt="" class="window-animation-image"/>
                             </div>
                         </div>
                         
